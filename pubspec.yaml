@@ -1,0 +1,74 @@
+name: whatsapp_clone
+description: "Whatsapp clone app with Flutter"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #Add dependencies
+  #Firebase dependencies
+  firebase_core: any
+  cloud_firestore: any
+  firebase_auth: any
+  firebase_storage: any
+
+  #UUIDS dependencies
+  uuid: any
+  #Toast dependencies
+  fluttertoast: any
+  #Date format dependencies
+  intl: any
+  #Contacts dependencies
+  contacts_service: any
+  flutter_contacts: any
+
+  #Image Picker & file Picker & Video Player dependencies
+  image_picker: any
+  file_picker: any
+  video_player: any
+
+  #Pin code dependency_validator:
+  flutter_pin_code_fields: any
+  country_picker: any
+  cached_network_image: any
+    #http: ^0.13.5
+  country_pickers: any
+  flutter_bloc: any
+  equatable: any
+  get_it: any
+  font_awesome_flutter: any
+  agora_uikit: any
+  get_time_ago: any
+  swipe_to: ^1.0.2
+#  emoji_picker_flutter: any
+
+  giphy_picker: any
+  #enough_giphy: ^0.2.0
+  #enough_giphy_flutter: ^0.4.0
+#  flutter_sound: any
+  path_provider: any
+  audioplayers: any
+  just_audio: any
+  flutter_story_view: any
+
+  flutter_lints: any
+
+flutter:
+
+  assets:
+    - assets/
+
+  uses-material-design: true
+
